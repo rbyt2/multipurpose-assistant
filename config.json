@@ -1,6 +1,6 @@
 {
-  "gemini_api_key": "AIzaSyCn50lPcSci5pd10H6ObwJL6yjZpLGT6hY",
-  "picovoice_api_key": "GU42DhnjmW/FY/DYyyWWSNJWxH2/UssFjlhlBNY2SerrpfztFOjMYg==",
+  "gemini_api_key": "apikey",
+  "picovoice_api_key": "apikey",
   "wake_word": "computer",
   "tts_rate": 150,
   "tts_voice": "default",
@@ -10,4 +10,5 @@
   "camera_index": 0,
   "microphone_index": 0
 }
+
 
