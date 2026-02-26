@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Assistant Visualizer</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="visualizer-body">
+    <div class="visualizer-bg">
+        <header class="visualizer-header">
+            <div class="response-text-wrapper">
+                <div id="response-text-display" class="response-text-display"></div>
+            </div>
+        </header>
+
+        <main class="visualizer-main">
+            <div class="visualizer-center">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+                <div class="ring ring-4"></div>
+                <div class="ring-core"></div>
+                <div id="status-label" class="status-label">idle</div>
+            </div>
+        </main>
+
+        <footer class="visualizer-footer">
+            <div class="chart-wrapper">
+                <canvas id="assistant-chart"></canvas>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
+
