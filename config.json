@@ -1,0 +1,13 @@
+{
+  "gemini_api_key": "AIzaSyCn50lPcSci5pd10H6ObwJL6yjZpLGT6hY",
+  "picovoice_api_key": "GU42DhnjmW/FY/DYyyWWSNJWxH2/UssFjlhlBNY2SerrpfztFOjMYg==",
+  "wake_word": "computer",
+  "tts_rate": 150,
+  "tts_voice": "default",
+  "server_port": 5000,
+  "websocket_port": 8080,
+  "vosk_model_path": "/home/pi/vosk-model",
+  "camera_index": 0,
+  "microphone_index": 0
+}
+
